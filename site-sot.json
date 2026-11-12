@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "site": "junkremoval.ltd",
+  "version": "2026-11-12.1",
+  "purpose": "Independent editorial resource for household clearouts, reuse, material routing and professional junk-removal operations",
+  "geography": "Canada and Commonwealth examples, each expressly jurisdiction scoped",
+  "audiences": [
+    "households",
+    "property managers",
+    "removal operators",
+    "commercial clients"
+  ],
+  "prohibitedClaims": [
+    "operating collection company",
+    "invented service coverage or prices",
+    "fabricated testimonials",
+    "universal disposal legality",
+    "unverified intake delivery"
+  ],
+  "editorialMinimumBodyWords": 2000,
+  "posts": 16,
+  "imagePolicy": "Original clearly labelled editorial illustrations at launch; company-original licensed sources when available for future equipment reporting; no Shutterstock",
+  "canonical": "https://junkremoval.ltd",
+  "sourceRepository": "https://github.com/SHTFTV/junkremoval.ltd",
+  "providerProjectId": "prj_sYtdymBvXBDUWE1QyV7lmS0GJ9iR",
+  "sharedOperatingStandard": "https://github.com/SHTFTV/markett-ca/blob/main/docs/completion/OPERATING-STANDARD.md",
+  "fourRoles": "red pending actual unattended worker, visual checker, supervisor and independent watchdog receipts and matched delivered owner alert",
+  "updatedAt": "2026-11-12T18:59:56.571470+00:00",
+  "sha256": "e6d80678345e019b9d8ad0186280b8a7baca609c9238b577bd81fc1dcd979306"
+}

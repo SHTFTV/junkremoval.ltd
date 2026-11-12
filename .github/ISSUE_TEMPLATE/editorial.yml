@@ -1,0 +1,36 @@
+name: Editorial proposal or correction
+description: Submit a sourced field note or factual correction for JunkRemoval.ltd
+title: "[Editorial] "
+body:
+  - type: markdown
+    attributes:
+      value: "This is public. Do not include private customer information, addresses or credentials."
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Submission type
+      options:
+        - Factual correction
+        - Specialist contribution
+    validations:
+      required: true
+  - type: input
+    id: topic
+    attributes:
+      label: Guide URL or proposed topic
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and jurisdiction
+      description: Include primary source links, jurisdiction, proposed correction or a short article summary.
+    validations:
+      required: true
+  - type: textarea
+    id: disclosure
+    attributes:
+      label: Role and commercial interests
+      description: Describe relevant experience and disclose any commercial relationship. No private contact details needed.
+    validations:
+      required: true
