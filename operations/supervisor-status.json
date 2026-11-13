@@ -1,11 +1,214 @@
 {
   "site": "junkremoval.ltd",
-  "observedAt": null,
-  "status": "unknown",
-  "unattended": false,
-  "runId": null,
-  "runRef": null,
+  "role": "supervisor",
+  "observedAt": "2026-11-13T06:25:57.676148+00:00",
+  "event": "push",
+  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43378648120",
+  "observerSourceCommit": "8da1c85af7f59af189dd088338b8f66c70c406f0",
+  "actorId": "junkremoval-supervisor",
+  "executionProvider": "github",
+  "loadedRevision": "junkremoval-supervisor-v1",
+  "loadedHash": "2f33d59fd5c7eea9ac7c96d99441408c4ffc70f27baf919843a74956a55a0c62",
+  "pageQualityVersion": 1,
+  "checkedWorkerRunRef": null,
+  "checkedVisualRunRef": null,
+  "actualSourceApiDeploymentPublicationChecks": true,
+  "status": "held",
+  "checks": [
+    {
+      "id": "worker-provider",
+      "passed": false,
+      "detail": {
+        "passed": false,
+        "reason": "INVALID_PROVIDER_RUN_REF"
+      }
+    },
+    {
+      "id": "visual-provider",
+      "passed": false,
+      "detail": {
+        "passed": false,
+        "reason": "INVALID_PROVIDER_RUN_REF"
+      }
+    },
+    {
+      "id": "worker-parent-sot",
+      "passed": false,
+      "detail": {
+        "expectedVersion": "2026-11-12.1"
+      }
+    },
+    {
+      "id": "worker-current-inputs",
+      "passed": false,
+      "detail": {
+        "comparedInputCount": 5
+      }
+    },
+    {
+      "id": "visual-current-inputs",
+      "passed": false,
+      "detail": {
+        "comparedInputCount": 40
+      }
+    },
+    {
+      "id": "worker-policy",
+      "passed": false,
+      "detail": {
+        "rolePolicy": "worker.json",
+        "runRef": null
+      }
+    },
+    {
+      "id": "visual-policy",
+      "passed": false,
+      "detail": {
+        "rolePolicy": "visual-checker.json",
+        "runRef": null
+      }
+    },
+    {
+      "id": "worker-native",
+      "passed": false,
+      "detail": {
+        "run": null,
+        "fresh": false,
+        "event": null
+      }
+    },
+    {
+      "id": "sources",
+      "passed": false,
+      "detail": {
+        "failedSources": [],
+        "healthySources": 0
+      }
+    },
+    {
+      "id": "visual",
+      "passed": false,
+      "detail": {
+        "run": null,
+        "status": "unknown",
+        "renderReviewVerified": false
+      }
+    },
+    {
+      "id": "preview-homepage",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "finalUrl": "https://junkremoval-ltd.vercel.app/",
+        "expectedText": true
+      }
+    },
+    {
+      "id": "canonical-homepage",
+      "passed": false,
+      "detail": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "id": "api-sot",
+      "passed": false,
+      "detail": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "actual-editorial-pages",
+      "passed": true,
+      "detail": [
+        {
+          "url": "https://junkremoval-ltd.vercel.app/guides/plan-a-house-cleanout/",
+          "status": 200,
+          "exactCommittedHtml": true
+        },
+        {
+          "url": "https://junkremoval-ltd.vercel.app/guides/compare-junk-removal-quotes/",
+          "status": 200,
+          "exactCommittedHtml": true
+        },
+        {
+          "url": "https://junkremoval-ltd.vercel.app/guides/donate-reuse-or-recycle/",
+          "status": 200,
+          "exactCommittedHtml": true
+        },
+        {
+          "url": "https://junkremoval-ltd.vercel.app/guides/furniture-and-mattress-removal/",
+          "status": 200,
+          "exactCommittedHtml": true
+        },
+        {
+          "url": "https://junkremoval-ltd.vercel.app/guides/estate-cleanout-inventory/",
+          "status": 200,
+          "exactCommittedHtml": true
+        },
+        {
+          "url": "https://junkremoval-ltd.vercel.app/guides/electronics-reuse-recycling-data/",
+          "status": 200,
+          "exactCommittedHtml": true
+        },
+        {
+          "url": "https://junkremoval-ltd.vercel.app/guides/batteries-paint-household-hazardous-waste/",
+          "status": 200,
+          "exactCommittedHtml": true
+        },
+        {
+          "url": "https://junkremoval-ltd.vercel.app/guides/renovation-debris-separation-reuse/",
+          "status": 200,
+          "exactCommittedHtml": true
+        },
+        {
+          "url": "https://junkremoval-ltd.vercel.app/guides/appliance-removal-refrigerants-preparation/",
+          "status": 200,
+          "exactCommittedHtml": true
+        },
+        {
+          "url": "https://junkremoval-ltd.vercel.app/guides/garden-waste-seasonal-clearout/",
+          "status": 200,
+          "exactCommittedHtml": true
+        },
+        {
+          "url": "https://junkremoval-ltd.vercel.app/guides/property-manager-cleanout-scope/",
+          "status": 200,
+          "exactCommittedHtml": true
+        },
+        {
+          "url": "https://junkremoval-ltd.vercel.app/guides/junk-removal-job-record-workflow/",
+          "status": 200,
+          "exactCommittedHtml": true
+        },
+        {
+          "url": "https://junkremoval-ltd.vercel.app/guides/choosing-junk-removal-truck-trailer-hooklift/",
+          "status": 200,
+          "exactCommittedHtml": true
+        },
+        {
+          "url": "https://junkremoval-ltd.vercel.app/guides/office-furniture-reuse-cleanout/",
+          "status": 200,
+          "exactCommittedHtml": true
+        },
+        {
+          "url": "https://junkremoval-ltd.vercel.app/guides/waste-transfer-records-commonwealth/",
+          "status": 200,
+          "exactCommittedHtml": true
+        },
+        {
+          "url": "https://junkremoval-ltd.vercel.app/guides/measuring-reuse-recycling-cleanout-performance/",
+          "status": 200,
+          "exactCommittedHtml": true
+        }
+      ]
+    },
+    {
+      "id": "retained-queue",
+      "passed": true,
+      "detail": {
+        "queue": "operations/source-state.json",
+        "pending": 0,
+        "retries": 0
+      }
+    }
+  ],
   "automaticArticlePublication": false,
-  "fourRolesApproved": false,
-  "reason": "Prepared only; no execution receipt exists."
+  "fourRolesApproved": false
 }
