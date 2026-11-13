@@ -1,10 +1,10 @@
 {
   "site": "junkremoval.ltd",
   "role": "visual-checker",
-  "observedAt": "2026-11-13T06:26:59.645Z",
+  "observedAt": "2026-11-13T06:46:39.853Z",
   "event": "push",
-  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43378648074",
-  "observerSourceCommit": "8da1c85af7f59af189dd088338b8f66c70c406f0",
+  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43380950328",
+  "observerSourceCommit": "636f7cb9ccc1cd7f7c0e11db87f329bc374ff0e3",
   "executionProvider": "github",
   "actorId": "junkremoval-visual-checker",
   "loadedRevision": "junkremoval-visual-checker-v1",
@@ -12,12 +12,11 @@
   "pageQualityVersion": 1,
   "scope": "Actual public preview renders while canonical DNS is incomplete; never canonical-domain proof",
   "status": "held",
-  "automatedChecksPassed": false,
+  "automatedChecksPassed": true,
   "distinctMetadata": true,
   "renderReviewVerified": false,
   "reviewedBy": null,
   "holdReasons": [
-    "AUTOMATED_RENDER_CHECK_FAILED",
     "ACTUAL_IMAGE_CROP_READABILITY_REVIEW_REQUIRED"
   ],
   "reports": [
@@ -300,9 +299,7 @@
     {
       "device": "desktop",
       "url": "https://junkremoval-ltd.vercel.app/guides/choosing-junk-removal-truck-trailer-hooklift/",
-      "errors": [
-        "READABILITY_FONT_TOO_SMALL"
-      ],
+      "errors": [],
       "checks": {
         "overflow": false,
         "h1": 1,
@@ -380,7 +377,7 @@
           17,
           17,
           17,
-          13,
+          16,
           17
         ],
         "summaryFonts": [
@@ -390,7 +387,7 @@
           14
         ]
       },
-      "imageDigest": "305ff29afb1d09c181ac191690ebfc1cb7dd81229ad8f10c05899874881920e7",
+      "imageDigest": "908ff9b7db775a48a77e22b28b37a48fe1119904f443a6605d2923e6ad0e96dc",
       "renderPath": "operations/visual/desktop-_guides_choosing_junk_removal_truck_trailer_hooklift_.jpg",
       "renderRef": "https://github.com/SHTFTV/junkremoval.ltd/blob/main/operations/visual/desktop-_guides_choosing_junk_removal_truck_trailer_hooklift_.jpg"
     },
@@ -705,9 +702,7 @@
     {
       "device": "phone",
       "url": "https://junkremoval-ltd.vercel.app/guides/choosing-junk-removal-truck-trailer-hooklift/",
-      "errors": [
-        "READABILITY_FONT_TOO_SMALL"
-      ],
+      "errors": [],
       "checks": {
         "overflow": false,
         "h1": 1,
@@ -785,7 +780,7 @@
           16,
           16,
           16,
-          13,
+          16,
           16
         ],
         "summaryFonts": [
@@ -795,7 +790,7 @@
           14
         ]
       },
-      "imageDigest": "06b2ee71018dc9f98a7d9972d022f104cec648a0c23cf64202b9a8e2302efb3b",
+      "imageDigest": "e639dd34795a7e0eb26ec26db48a9d2e81fe04afef46043a5597653ac377c0a1",
       "renderPath": "operations/visual/phone-_guides_choosing_junk_removal_truck_trailer_hooklift_.jpg",
       "renderRef": "https://github.com/SHTFTV/junkremoval.ltd/blob/main/operations/visual/phone-_guides_choosing_junk_removal_truck_trailer_hooklift_.jpg"
     },
