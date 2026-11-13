@@ -3,5 +3,8 @@
   "known": {},
   "tasks": [],
   "retries": {},
-  "lease": null
+  "lease": {
+    "runId": "43378648065",
+    "expiresAt": "2026-11-13T06:45:57.763129+00:00"
+  }
 }
