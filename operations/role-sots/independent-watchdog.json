@@ -1,0 +1,15 @@
+{
+  "site": "junkremoval.ltd",
+  "role": "independent-watchdog",
+  "version": "junkremoval-independent-watchdog-v1",
+  "preview": "https://junkremoval-ltd.vercel.app",
+  "canonical": "https://junkremoval.ltd",
+  "qualityVersion": 1,
+  "scope": [
+    "Execute on existing Vercel separately from GitHub worker provider",
+    "Detect worker and supervisor stale or missing heartbeats",
+    "Export stable incident and explicitly synthetic controlled-silence logic probe to existing authorised reader",
+    "Do not equate public GET, canary logic or reader delivery with native schedule proof or owner read"
+  ],
+  "freshnessHours": 6
+}

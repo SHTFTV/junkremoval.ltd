@@ -15,5 +15,25 @@
         }
       ]
     }
+  ],
+  "functions": {
+    "api/operations.js": {
+      "includeFiles": "{site-sot.json,publication-status.json,operations/**/*.json}"
+    },
+    "api/watchdog.js": {
+      "includeFiles": "{site-sot.json,publication-status.json,operations/**/*.json}"
+    },
+    "api/alerts.js": {
+      "includeFiles": "{site-sot.json,publication-status.json,operations/**/*.json}"
+    },
+    "api/roles.js": {
+      "includeFiles": "{site-sot.json,publication-status.json,operations/**/*.json}"
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/watchdog/",
+      "schedule": "33 * * * *"
+    }
   ]
 }

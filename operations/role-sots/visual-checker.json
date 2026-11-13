@@ -1,0 +1,14 @@
+{
+  "site": "junkremoval.ltd",
+  "role": "visual-checker",
+  "version": "junkremoval-visual-checker-v1",
+  "preview": "https://junkremoval-ltd.vercel.app",
+  "canonical": "https://junkremoval.ltd",
+  "qualityVersion": 1,
+  "scope": [
+    "Render actual deployed home, guide index, equipment guide and planner on desktop1440x900 and phone390x844",
+    "Verify metadata, images, overflow, guide search, planner generation and download",
+    "Retain screenshots and require genuine digest-matched image/crop/readability review"
+  ],
+  "freshnessHours": 6
+}

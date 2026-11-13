@@ -1,1 +1,21 @@
 document.addEventListener('DOMContentLoaded',()=>{const search=document.querySelector('#guide-search'),category=document.querySelector('#guide-category');function filter(){const q=search.value.trim().toLowerCase(),cat=category.value;let n=0;document.querySelectorAll('#guide-grid .card').forEach(c=>{const show=(!q||c.dataset.search.includes(q))&&(cat==='all'||c.dataset.category===cat);c.hidden=!show;if(show)n++;});document.querySelector('#result-count').textContent=n+' guide'+(n===1?'':'s');document.querySelector('#no-results').hidden=n!==0;}if(search){search.addEventListener('input',filter);category.addEventListener('change',filter);}const form=document.querySelector('#planner');let brief='';if(form){form.addEventListener('submit',e=>{e.preventDefault();const v=Object.fromEntries(new FormData(form));brief='CLEAROUT PLANNING BRIEF\nPrepared with JunkRemoval.ltd\n\n'+[['Project',v.project],['Role',v.role],['Target date',v.date||'To confirm'],['Jurisdiction',v.region||'To confirm'],['Inventory',v.inventory],['Access and constraints',v.access||'To confirm'],['Reuse and decisions',v.reuse||'To confirm'],['Separate material checks',v.special||'To confirm']].map(([k,x])=>k.toUpperCase()+'\n'+x).join('\n\n')+'\n\nQUESTIONS FOR PROVIDERS\nConfirm acceptance and exclusions, quote basis, access charges, scope changes, destination records, and the approval process before additional work.\n\nThis is a planning brief, not a booking, quote or disposal authorization. Check local requirements and actual destination acceptance.';const out=document.querySelector('#brief-output');out.textContent=brief;out.hidden=false;document.querySelector('#download-brief').hidden=false;document.querySelector('#print-brief').hidden=false;out.scrollIntoView({behavior:'smooth',block:'nearest'});});document.querySelector('#download-brief').addEventListener('click',()=>{const url=URL.createObjectURL(new Blob([brief],{type:'text/plain;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='clearout-brief.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),500);});document.querySelector('#print-brief').addEventListener('click',()=>window.print());}});
+/* runtime-site-scope-v1 */
+document.addEventListener('DOMContentLoaded', async () => {
+  const node = document.querySelector('[data-runtime-sot]');
+  if (!node) return;
+  try {
+    const response = await fetch('/site-sot.json', {cache:'no-store'});
+    if (!response.ok) throw new Error('Site scope packet returned HTTP '+response.status);
+    const scope = await response.json();
+    if (scope.site !== 'junkremoval.ltd' || !scope.version || !scope.sha256) throw new Error('Site scope packet is incomplete');
+    document.querySelector('[data-sot-version]').textContent = scope.version;
+    document.querySelector('[data-sot-hash]').textContent = scope.sha256;
+    node.textContent = 'Loaded the deployed site scope packet at '+new Date().toISOString()+'.';
+    node.dataset.loadedVersion = scope.version;
+    node.dataset.loadedHash = scope.sha256;
+    node.dataset.loadedAt = new Date().toISOString();
+  } catch(error) {
+    node.textContent = 'Runtime site scope read failed: '+error.message;
+    node.dataset.state = 'failed';
+  }
+});

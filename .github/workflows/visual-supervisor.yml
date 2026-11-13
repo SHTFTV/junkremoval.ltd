@@ -1,0 +1,41 @@
+name: JunkRemoval rendered visual checker
+on:
+  push:
+    branches: [main]
+    paths: [operations/visual-check.cjs, operations/check-inputs.py, operations/persist-state.sh, operations/package.json, operations/role-sots/visual-checker.json, operations/render-review.json, .github/workflows/visual-supervisor.yml]
+  schedule:
+    - cron: '37 */2 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: junkremoval-ltd-visual
+  cancel-in-progress: false
+jobs:
+  visual:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with: {ref: main, fetch-depth: 0}
+      - name: Verify current inputs before dependency execution
+        run: python3 operations/check-inputs.py visual
+      - name: Install pinned renderer
+        run: |
+          npm install --prefix operations --ignore-scripts --no-audit --no-fund
+          npx --prefix operations playwright install --with-deps chromium
+      - name: Render actual public desktop and phone journeys
+        run: node operations/visual-check.cjs
+      - name: Persist actual renders with bounded retry
+        if: always()
+        run: bash operations/persist-state.sh visual
+      - name: Retain actual execution artifacts even if persistence fails
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: junkremoval-visual-${{ github.run_id }}
+          retention-days: 7
+          if-no-files-found: warn
+          path: |
+            operations/visual-status.json
+            operations/visual/

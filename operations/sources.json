@@ -1,0 +1,27 @@
+[
+  {
+    "title": "British Columbia hazardous waste manifests",
+    "url": "https://www2.gov.bc.ca/gov/content/environment/waste-management/hazardous-waste/transporting-hazardous-waste/manifests",
+    "jurisdiction": "British Columbia"
+  },
+  {
+    "title": "England and Wales waste duty of care code",
+    "url": "https://www.gov.uk/government/publications/waste-duty-of-care-code-of-practice/waste-duty-of-care-code-of-practice",
+    "jurisdiction": "England and Wales"
+  },
+  {
+    "title": "Scotland controlled waste transfer notes",
+    "url": "https://www.gov.scot/publications/duty-care-code-practice-managing-controlled-waste/pages/8/",
+    "jurisdiction": "Scotland"
+  },
+  {
+    "title": "New South Wales waste transport",
+    "url": "https://www.epa.nsw.gov.au/Your-environment/Waste/transporting-waste",
+    "jurisdiction": "New South Wales"
+  },
+  {
+    "title": "Statistics Canada waste diversion data, dated release",
+    "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250404/dq250404b-eng.htm",
+    "jurisdiction": "Canada"
+  }
+]

@@ -1,0 +1,43 @@
+name: JunkRemoval official source monitor
+on:
+  push:
+    branches: [main]
+    paths: [operations/source-monitor.py, operations/fetch-source.py, operations/check-inputs.py, operations/persist-state.sh, operations/sources.json, operations/role-sots/worker.json, site-sot.json, .github/workflows/source-monitor.yml]
+  schedule:
+    - cron: '17 */2 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: junkremoval-ltd-source-monitor
+  cancel-in-progress: false
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with: {ref: main, fetch-depth: 0}
+      - name: Verify current inputs before any lease write
+        run: python3 operations/check-inputs.py worker
+      - name: Acquire and persist the bounded queue lease
+        run: |
+          python3 operations/source-monitor.py --acquire
+          bash operations/persist-state.sh worker-lease
+      - name: Monitor official sources and retain review queue
+        run: python3 operations/source-monitor.py
+      - name: Save actual source-monitor state with bounded retry
+        run: bash operations/persist-state.sh worker
+      - name: Retain actual execution artifacts even if persistence fails
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: junkremoval-source-${{ github.run_id }}
+          retention-days: 7
+          if-no-files-found: warn
+          path: |
+            operations/source-state.json
+            operations/source-monitor-status.json

@@ -1,0 +1,14 @@
+{
+  "site": "junkremoval.ltd",
+  "role": "worker",
+  "version": "junkremoval-worker-v1",
+  "preview": "https://junkremoval-ltd.vercel.app",
+  "canonical": "https://junkremoval.ltd",
+  "qualityVersion": 1,
+  "scope": [
+    "Monitor the fixed official source list for material text changes",
+    "Retain review candidates, failed sources and next eligible retry; deduplicate by URL plus content hash",
+    "Never infer a news article or change jurisdiction guidance from a source digest alone"
+  ],
+  "freshnessHours": 6
+}

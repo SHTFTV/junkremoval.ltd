@@ -1,0 +1,14 @@
+{
+  "site": "junkremoval.ltd",
+  "role": "supervisor",
+  "version": "junkremoval-supervisor-v1",
+  "preview": "https://junkremoval-ltd.vercel.app",
+  "canonical": "https://junkremoval.ltd",
+  "qualityVersion": 1,
+  "scope": [
+    "Inspect actual worker and visual receipts, run identity, freshness and native trigger",
+    "Check source input identity, deployed SOT hash, current receipt binding and exact committed editorial pages",
+    "Hold when source failures, source/deployment mismatch, missing visual review or canonical parking remain"
+  ],
+  "freshnessHours": 6
+}

@@ -1,0 +1,11 @@
+{
+  "site": "junkremoval.ltd",
+  "observedAt": null,
+  "status": "unknown",
+  "unattended": false,
+  "runId": null,
+  "runRef": null,
+  "automaticArticlePublication": false,
+  "fourRolesApproved": false,
+  "reason": "Prepared only; no execution receipt exists."
+}

@@ -1,0 +1,37 @@
+name: JunkRemoval independent supervisor
+on:
+  push:
+    branches: [main]
+    paths: [operations/supervisor.py, operations/check-inputs.py, operations/persist-state.sh, operations/role-sots/supervisor.json, .github/workflows/supervisor.yml]
+  schedule:
+    - cron: '57 */2 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: junkremoval-ltd-supervisor
+  cancel-in-progress: false
+jobs:
+  supervise:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with: {ref: main, fetch-depth: 0}
+      - name: Verify current supervisor inputs
+        run: python3 operations/check-inputs.py supervisor
+      - name: Supervise completed provider runs and live site
+        run: python3 operations/supervisor.py
+      - name: Persist supervisor observations with bounded retry
+        run: bash operations/persist-state.sh supervisor
+      - name: Retain actual supervisor observations
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: junkremoval-supervisor-${{ github.run_id }}
+          retention-days: 7
+          if-no-files-found: warn
+          path: operations/supervisor-status.json
