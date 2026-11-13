@@ -2,7 +2,7 @@ name: JunkRemoval rendered visual checker
 on:
   push:
     branches: [main]
-    paths: [operations/visual-check.cjs, operations/check-inputs.py, operations/persist-state.sh, operations/package.json, operations/role-sots/visual-checker.json, operations/render-review.json, .github/workflows/visual-supervisor.yml]
+    paths: [index.html, assets/**, guides/**, planner/**, site-sot.json, publication-status.json, operations/visual-check.cjs, operations/check-inputs.py, operations/persist-state.sh, operations/package.json, operations/role-sots/visual-checker.json, operations/render-review.json, .github/workflows/visual-supervisor.yml]
   schedule:
     - cron: '37 */2 * * *'
   workflow_dispatch:

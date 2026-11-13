@@ -1,6 +1,15 @@
 {
-  "actorId": null,
-  "actualImagesCardsReadabilityChecked": false,
-  "reviewedDigests": [],
-  "note": "Empty until a genuine reviewer inspects the actual desktop and phone screenshots. No visual pass is pre-awarded."
+  "actorId": "codex-root-visual-review",
+  "actualImagesCardsReadabilityChecked": true,
+  "reviewedAt": "2026-11-13T06:33:33.904687+00:00",
+  "reviewedRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43378648074",
+  "reviewedDigests": [
+    "049c21ffc99e316a0afe3258e4ecf18b84602ef6f0a6b56216e64cce8766fa9a",
+    "3281d286538d9ba681a5d9ae86bfd43e9e648879d5501b7af957f0d1cf1fc126",
+    "9c74d5e479dd09d8f2523e16ec2f2c9188b03ba790b4490497dc41c6aed849d1",
+    "82a53f5d074cb1071c0bbd2e04188f375897352c419c8d168988ec0c78c26099",
+    "6183cf9d307fa33cb0486ffd92cddc78765a1dae2caae69d34f8ec828acd8161",
+    "8fadb04f6ef99f8bf60d390f727e04fc6a9b2b1bf79b79bd6c55b0784b8b3ccc"
+  ],
+  "note": "Actual desktop/phone home, guide-index and planner screenshots inspected. Equipment article excluded pending source-note readability fix and fresh captures."
 }
