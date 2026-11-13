@@ -1,15 +1,18 @@
 {
   "actorId": "codex-root-visual-review",
   "actualImagesCardsReadabilityChecked": true,
-  "reviewedAt": "2026-11-13T06:33:33.904687+00:00",
-  "reviewedRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43378648074",
+  "reviewedAt": "2026-11-13 06:50:35 UTC",
+  "reviewedRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43380950328",
+  "reviewedSourceCommit": "636f7cb9ccc1cd7f7c0e11db87f329bc374ff0e3",
   "reviewedDigests": [
     "049c21ffc99e316a0afe3258e4ecf18b84602ef6f0a6b56216e64cce8766fa9a",
     "3281d286538d9ba681a5d9ae86bfd43e9e648879d5501b7af957f0d1cf1fc126",
+    "908ff9b7db775a48a77e22b28b37a48fe1119904f443a6605d2923e6ad0e96dc",
     "9c74d5e479dd09d8f2523e16ec2f2c9188b03ba790b4490497dc41c6aed849d1",
     "82a53f5d074cb1071c0bbd2e04188f375897352c419c8d168988ec0c78c26099",
     "6183cf9d307fa33cb0486ffd92cddc78765a1dae2caae69d34f8ec828acd8161",
+    "e639dd34795a7e0eb26ec26db48a9d2e81fe04afef46043a5597653ac377c0a1",
     "8fadb04f6ef99f8bf60d390f727e04fc6a9b2b1bf79b79bd6c55b0784b8b3ccc"
   ],
-  "note": "Actual desktop/phone home, guide-index and planner screenshots inspected. Equipment article excluded pending source-note readability fix and fresh captures."
+  "note": "All eight actual desktop/phone home, guide-index, equipment-article and planner captures inspected. Article source note is now16px; original illustrations/crops, layout, source text, related cards, navigation and generated brief are readable with no overflow. This review does not prove native schedules, domain readiness or automatic article publication."
 }
