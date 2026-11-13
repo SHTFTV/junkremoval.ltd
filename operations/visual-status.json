@@ -1,11 +1,837 @@
 {
   "site": "junkremoval.ltd",
-  "observedAt": null,
-  "status": "unknown",
-  "unattended": false,
-  "runId": null,
-  "runRef": null,
+  "role": "visual-checker",
+  "observedAt": "2026-11-13T06:26:59.645Z",
+  "event": "push",
+  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43378648074",
+  "observerSourceCommit": "8da1c85af7f59af189dd088338b8f66c70c406f0",
+  "executionProvider": "github",
+  "actorId": "junkremoval-visual-checker",
+  "loadedRevision": "junkremoval-visual-checker-v1",
+  "loadedHash": "c45c00110219b811222cef2510441ce9afc7763788c4ac4f2fcdab1a591ffbaa",
+  "pageQualityVersion": 1,
+  "scope": "Actual public preview renders while canonical DNS is incomplete; never canonical-domain proof",
+  "status": "held",
+  "automatedChecksPassed": false,
+  "distinctMetadata": true,
+  "renderReviewVerified": false,
+  "reviewedBy": null,
+  "holdReasons": [
+    "AUTOMATED_RENDER_CHECK_FAILED",
+    "ACTUAL_IMAGE_CROP_READABILITY_REVIEW_REQUIRED"
+  ],
+  "reports": [
+    {
+      "device": "desktop",
+      "url": "https://junkremoval-ltd.vercel.app/",
+      "errors": [],
+      "checks": {
+        "overflow": false,
+        "h1": 1,
+        "images": [
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/favicon.svg",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "",
+            "decorative": true,
+            "fit": "fill"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/hero-scene.svg",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration of furniture, cartons and a clearout checklist",
+            "decorative": false,
+            "fit": "contain"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/plan-a-house-cleanout.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Plan a house cleanout without losing the things that matter",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/donate-reuse-or-recycle.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Donate, reuse or recycle: give every item a realistic next step",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/choosing-junk-removal-truck-trailer-hooklift.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Truck, dump trailer or hooklift: choose the system around the work",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/property-manager-cleanout-scope.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for A property manager’s cleanout scope: from possession to handover",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/office-furniture-reuse-cleanout.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for An office furniture cleanout that gives reuse a workable chance",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/measuring-reuse-recycling-cleanout-performance.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Measure cleanout performance without inflating the diversion story",
+            "decorative": false,
+            "fit": "cover"
+          }
+        ],
+        "canonical": "https://junkremoval.ltd/",
+        "title": "A clearer space. A better next step. | JunkRemoval.ltd",
+        "description": "Independent clearout planning, reuse and junk-removal industry guides for households, property teams and operators.",
+        "ogImage": "https://junkremoval.ltd/assets/home.png",
+        "twitterImage": "https://junkremoval.ltd/assets/home.png",
+        "narrativeFonts": [],
+        "summaryFonts": [
+          19,
+          14,
+          14,
+          15,
+          15,
+          14,
+          14,
+          14,
+          14,
+          19,
+          14,
+          14,
+          14,
+          14
+        ]
+      },
+      "imageDigest": "049c21ffc99e316a0afe3258e4ecf18b84602ef6f0a6b56216e64cce8766fa9a",
+      "renderPath": "operations/visual/desktop-_.jpg",
+      "renderRef": "https://github.com/SHTFTV/junkremoval.ltd/blob/main/operations/visual/desktop-_.jpg"
+    },
+    {
+      "device": "desktop",
+      "url": "https://junkremoval-ltd.vercel.app/guides/",
+      "errors": [],
+      "checks": {
+        "overflow": false,
+        "h1": 1,
+        "images": [
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/favicon.svg",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "",
+            "decorative": true,
+            "fit": "fill"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/plan-a-house-cleanout.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Plan a house cleanout without losing the things that matter",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/compare-junk-removal-quotes.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for How to compare junk-removal quotes on the same scope",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/donate-reuse-or-recycle.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Donate, reuse or recycle: give every item a realistic next step",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/furniture-and-mattress-removal.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Furniture and mattress removal: plan the route before moving the load",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/estate-cleanout-inventory.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for An estate cleanout starts with authority and an inventory",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/electronics-reuse-recycling-data.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Clear the device, then clear the shelf: an electronics exit plan",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/batteries-paint-household-hazardous-waste.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for The garage clearout needs a separate hazardous-waste plan",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/renovation-debris-separation-reuse.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Plan the material exits before the renovation starts",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/appliance-removal-refrigerants-preparation.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for An appliance is more than a heavy object: plan its removal properly",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/garden-waste-seasonal-clearout.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Sort the garden clearout before the trailer is full",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/property-manager-cleanout-scope.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for A property manager’s cleanout scope: from possession to handover",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/junk-removal-job-record-workflow.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for A practical job-record workflow for a small removal operator",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/choosing-junk-removal-truck-trailer-hooklift.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Truck, dump trailer or hooklift: choose the system around the work",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/office-furniture-reuse-cleanout.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for An office furniture cleanout that gives reuse a workable chance",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/waste-transfer-records-commonwealth.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Waste-transfer records: a Commonwealth comparison for cleanout planning",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/measuring-reuse-recycling-cleanout-performance.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Measure cleanout performance without inflating the diversion story",
+            "decorative": false,
+            "fit": "cover"
+          }
+        ],
+        "canonical": "https://junkremoval.ltd/guides/",
+        "title": "The field guides | JunkRemoval.ltd",
+        "description": "Sourced, practical reading for the decisions before, during and after a clearout.",
+        "ogImage": "https://junkremoval.ltd/assets/guides.png",
+        "twitterImage": "https://junkremoval.ltd/assets/guides.png",
+        "narrativeFonts": [],
+        "summaryFonts": [
+          19,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          16
+        ]
+      },
+      "imageDigest": "3281d286538d9ba681a5d9ae86bfd43e9e648879d5501b7af957f0d1cf1fc126",
+      "renderPath": "operations/visual/desktop-_guides_.jpg",
+      "renderRef": "https://github.com/SHTFTV/junkremoval.ltd/blob/main/operations/visual/desktop-_guides_.jpg"
+    },
+    {
+      "device": "desktop",
+      "url": "https://junkremoval-ltd.vercel.app/guides/choosing-junk-removal-truck-trailer-hooklift/",
+      "errors": [
+        "READABILITY_FONT_TOO_SMALL"
+      ],
+      "checks": {
+        "overflow": false,
+        "h1": 1,
+        "images": [
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/favicon.svg",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "",
+            "decorative": true,
+            "fit": "fill"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/choosing-junk-removal-truck-trailer-hooklift.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration: Truck, dump trailer or hooklift: choose the system around the work",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/property-manager-cleanout-scope.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for A property manager’s cleanout scope: from possession to handover",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/junk-removal-job-record-workflow.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for A practical job-record workflow for a small removal operator",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/office-furniture-reuse-cleanout.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for An office furniture cleanout that gives reuse a workable chance",
+            "decorative": false,
+            "fit": "cover"
+          }
+        ],
+        "canonical": "https://junkremoval.ltd/guides/choosing-junk-removal-truck-trailer-hooklift/",
+        "title": "Truck, dump trailer or hooklift: choose the system around the work | JunkRemoval.ltd",
+        "description": "Compare three removal equipment systems through payload, access, container logistics, service support and verified manufacturer information.",
+        "ogImage": "https://junkremoval.ltd/assets/choosing-junk-removal-truck-trailer-hooklift.png",
+        "twitterImage": "https://junkremoval.ltd/assets/choosing-junk-removal-truck-trailer-hooklift.png",
+        "narrativeFonts": [
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          13,
+          17
+        ],
+        "summaryFonts": [
+          19,
+          14,
+          14,
+          14
+        ]
+      },
+      "imageDigest": "305ff29afb1d09c181ac191690ebfc1cb7dd81229ad8f10c05899874881920e7",
+      "renderPath": "operations/visual/desktop-_guides_choosing_junk_removal_truck_trailer_hooklift_.jpg",
+      "renderRef": "https://github.com/SHTFTV/junkremoval.ltd/blob/main/operations/visual/desktop-_guides_choosing_junk_removal_truck_trailer_hooklift_.jpg"
+    },
+    {
+      "device": "desktop",
+      "url": "https://junkremoval-ltd.vercel.app/planner/",
+      "errors": [],
+      "checks": {
+        "overflow": false,
+        "h1": 1,
+        "images": [
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/favicon.svg",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "",
+            "decorative": true,
+            "fit": "fill"
+          }
+        ],
+        "canonical": "https://junkremoval.ltd/planner/",
+        "title": "Build a clearout brief | JunkRemoval.ltd",
+        "description": "A free browser-only clearout planner: inventory, access, reuse and material questions in a downloadable brief.",
+        "ogImage": "https://junkremoval.ltd/assets/planner.png",
+        "twitterImage": "https://junkremoval.ltd/assets/planner.png",
+        "narrativeFonts": [],
+        "summaryFonts": [
+          19,
+          16
+        ]
+      },
+      "imageDigest": "9c74d5e479dd09d8f2523e16ec2f2c9188b03ba790b4490497dc41c6aed849d1",
+      "renderPath": "operations/visual/desktop-_planner_.jpg",
+      "renderRef": "https://github.com/SHTFTV/junkremoval.ltd/blob/main/operations/visual/desktop-_planner_.jpg"
+    },
+    {
+      "device": "phone",
+      "url": "https://junkremoval-ltd.vercel.app/",
+      "errors": [],
+      "checks": {
+        "overflow": false,
+        "h1": 1,
+        "images": [
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/favicon.svg",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "",
+            "decorative": true,
+            "fit": "fill"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/hero-scene.svg",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration of furniture, cartons and a clearout checklist",
+            "decorative": false,
+            "fit": "contain"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/plan-a-house-cleanout.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Plan a house cleanout without losing the things that matter",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/donate-reuse-or-recycle.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Donate, reuse or recycle: give every item a realistic next step",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/choosing-junk-removal-truck-trailer-hooklift.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Truck, dump trailer or hooklift: choose the system around the work",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/property-manager-cleanout-scope.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for A property manager’s cleanout scope: from possession to handover",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/office-furniture-reuse-cleanout.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for An office furniture cleanout that gives reuse a workable chance",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/measuring-reuse-recycling-cleanout-performance.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Measure cleanout performance without inflating the diversion story",
+            "decorative": false,
+            "fit": "cover"
+          }
+        ],
+        "canonical": "https://junkremoval.ltd/",
+        "title": "A clearer space. A better next step. | JunkRemoval.ltd",
+        "description": "Independent clearout planning, reuse and junk-removal industry guides for households, property teams and operators.",
+        "ogImage": "https://junkremoval.ltd/assets/home.png",
+        "twitterImage": "https://junkremoval.ltd/assets/home.png",
+        "narrativeFonts": [],
+        "summaryFonts": [
+          19,
+          14,
+          14,
+          15,
+          15,
+          14,
+          14,
+          14,
+          14,
+          19,
+          14,
+          14,
+          14,
+          14
+        ]
+      },
+      "imageDigest": "82a53f5d074cb1071c0bbd2e04188f375897352c419c8d168988ec0c78c26099",
+      "renderPath": "operations/visual/phone-_.jpg",
+      "renderRef": "https://github.com/SHTFTV/junkremoval.ltd/blob/main/operations/visual/phone-_.jpg"
+    },
+    {
+      "device": "phone",
+      "url": "https://junkremoval-ltd.vercel.app/guides/",
+      "errors": [],
+      "checks": {
+        "overflow": false,
+        "h1": 1,
+        "images": [
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/favicon.svg",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "",
+            "decorative": true,
+            "fit": "fill"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/plan-a-house-cleanout.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Plan a house cleanout without losing the things that matter",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/compare-junk-removal-quotes.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for How to compare junk-removal quotes on the same scope",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/donate-reuse-or-recycle.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Donate, reuse or recycle: give every item a realistic next step",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/furniture-and-mattress-removal.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Furniture and mattress removal: plan the route before moving the load",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/estate-cleanout-inventory.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for An estate cleanout starts with authority and an inventory",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/electronics-reuse-recycling-data.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Clear the device, then clear the shelf: an electronics exit plan",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/batteries-paint-household-hazardous-waste.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for The garage clearout needs a separate hazardous-waste plan",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/renovation-debris-separation-reuse.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Plan the material exits before the renovation starts",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/appliance-removal-refrigerants-preparation.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for An appliance is more than a heavy object: plan its removal properly",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/garden-waste-seasonal-clearout.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Sort the garden clearout before the trailer is full",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/property-manager-cleanout-scope.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for A property manager’s cleanout scope: from possession to handover",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/junk-removal-job-record-workflow.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for A practical job-record workflow for a small removal operator",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/choosing-junk-removal-truck-trailer-hooklift.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Truck, dump trailer or hooklift: choose the system around the work",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/office-furniture-reuse-cleanout.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for An office furniture cleanout that gives reuse a workable chance",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/waste-transfer-records-commonwealth.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Waste-transfer records: a Commonwealth comparison for cleanout planning",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/measuring-reuse-recycling-cleanout-performance.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for Measure cleanout performance without inflating the diversion story",
+            "decorative": false,
+            "fit": "cover"
+          }
+        ],
+        "canonical": "https://junkremoval.ltd/guides/",
+        "title": "The field guides | JunkRemoval.ltd",
+        "description": "Sourced, practical reading for the decisions before, during and after a clearout.",
+        "ogImage": "https://junkremoval.ltd/assets/guides.png",
+        "twitterImage": "https://junkremoval.ltd/assets/guides.png",
+        "narrativeFonts": [],
+        "summaryFonts": [
+          19,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          16
+        ]
+      },
+      "imageDigest": "6183cf9d307fa33cb0486ffd92cddc78765a1dae2caae69d34f8ec828acd8161",
+      "renderPath": "operations/visual/phone-_guides_.jpg",
+      "renderRef": "https://github.com/SHTFTV/junkremoval.ltd/blob/main/operations/visual/phone-_guides_.jpg"
+    },
+    {
+      "device": "phone",
+      "url": "https://junkremoval-ltd.vercel.app/guides/choosing-junk-removal-truck-trailer-hooklift/",
+      "errors": [
+        "READABILITY_FONT_TOO_SMALL"
+      ],
+      "checks": {
+        "overflow": false,
+        "h1": 1,
+        "images": [
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/favicon.svg",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "",
+            "decorative": true,
+            "fit": "fill"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/choosing-junk-removal-truck-trailer-hooklift.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration: Truck, dump trailer or hooklift: choose the system around the work",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/property-manager-cleanout-scope.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for A property manager’s cleanout scope: from possession to handover",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/junk-removal-job-record-workflow.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for A practical job-record workflow for a small removal operator",
+            "decorative": false,
+            "fit": "cover"
+          },
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/office-furniture-reuse-cleanout.png",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "Original editorial illustration for An office furniture cleanout that gives reuse a workable chance",
+            "decorative": false,
+            "fit": "cover"
+          }
+        ],
+        "canonical": "https://junkremoval.ltd/guides/choosing-junk-removal-truck-trailer-hooklift/",
+        "title": "Truck, dump trailer or hooklift: choose the system around the work | JunkRemoval.ltd",
+        "description": "Compare three removal equipment systems through payload, access, container logistics, service support and verified manufacturer information.",
+        "ogImage": "https://junkremoval.ltd/assets/choosing-junk-removal-truck-trailer-hooklift.png",
+        "twitterImage": "https://junkremoval.ltd/assets/choosing-junk-removal-truck-trailer-hooklift.png",
+        "narrativeFonts": [
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          13,
+          16
+        ],
+        "summaryFonts": [
+          19,
+          14,
+          14,
+          14
+        ]
+      },
+      "imageDigest": "06b2ee71018dc9f98a7d9972d022f104cec648a0c23cf64202b9a8e2302efb3b",
+      "renderPath": "operations/visual/phone-_guides_choosing_junk_removal_truck_trailer_hooklift_.jpg",
+      "renderRef": "https://github.com/SHTFTV/junkremoval.ltd/blob/main/operations/visual/phone-_guides_choosing_junk_removal_truck_trailer_hooklift_.jpg"
+    },
+    {
+      "device": "phone",
+      "url": "https://junkremoval-ltd.vercel.app/planner/",
+      "errors": [],
+      "checks": {
+        "overflow": false,
+        "h1": 1,
+        "images": [
+          {
+            "src": "https://junkremoval-ltd.vercel.app/assets/favicon.svg",
+            "loaded": true,
+            "altPresent": true,
+            "alt": "",
+            "decorative": true,
+            "fit": "fill"
+          }
+        ],
+        "canonical": "https://junkremoval.ltd/planner/",
+        "title": "Build a clearout brief | JunkRemoval.ltd",
+        "description": "A free browser-only clearout planner: inventory, access, reuse and material questions in a downloadable brief.",
+        "ogImage": "https://junkremoval.ltd/assets/planner.png",
+        "twitterImage": "https://junkremoval.ltd/assets/planner.png",
+        "narrativeFonts": [],
+        "summaryFonts": [
+          19,
+          16
+        ]
+      },
+      "imageDigest": "8fadb04f6ef99f8bf60d390f727e04fc6a9b2b1bf79b79bd6c55b0784b8b3ccc",
+      "renderPath": "operations/visual/phone-_planner_.jpg",
+      "renderRef": "https://github.com/SHTFTV/junkremoval.ltd/blob/main/operations/visual/phone-_planner_.jpg"
+    }
+  ],
   "automaticArticlePublication": false,
-  "fourRolesApproved": false,
-  "reason": "Prepared only; no execution receipt exists."
+  "fourRolesApproved": false
 }
