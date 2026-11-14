@@ -5,38 +5,35 @@
       "sha256": "119783a7b67aada2166def3bf7d069cc2ab43a6541ea067fc4d630d6c5503d5a",
       "hashAlgorithm": "visible-text-v1",
       "textCharacters": 23983,
-      "observedAt": "2026-11-14T06:34:34.543148+00:00"
+      "observedAt": "2026-11-14T15:09:24.441342+00:00"
     },
     "https://www.gov.uk/government/publications/waste-duty-of-care-code-of-practice/waste-duty-of-care-code-of-practice": {
       "sha256": "a62972a5e7ecec320b2aa5aca725a8f9dadd017bb687ba75eff14789920697a4",
       "hashAlgorithm": "visible-text-v1",
       "textCharacters": 35125,
-      "observedAt": "2026-11-14T06:34:34.543148+00:00"
+      "observedAt": "2026-11-14T15:09:24.441342+00:00"
     },
     "https://www.gov.scot/publications/duty-care-code-practice-managing-controlled-waste/pages/8/": {
       "sha256": "f454ef9e7e8527b68d6306aac13545687508bb73953f7e7fcb23a371c10b41c4",
       "hashAlgorithm": "visible-text-v1",
       "textCharacters": 2701,
-      "observedAt": "2026-11-14T06:34:34.543148+00:00"
+      "observedAt": "2026-11-14T15:09:24.441342+00:00"
     },
     "https://www.epa.nsw.gov.au/Your-environment/Waste/transporting-waste": {
       "sha256": "cc15c6284bb25b42833fa285c0e8dfabb79d82c13e4f4756b694ec7bfd940744",
       "hashAlgorithm": "visible-text-v1",
       "textCharacters": 5166,
-      "observedAt": "2026-11-14T06:34:34.543148+00:00"
+      "observedAt": "2026-11-14T15:09:24.441342+00:00"
     },
     "https://www150.statcan.gc.ca/n1/daily-quotidien/250404/dq250404b-eng.htm": {
       "sha256": "969287ce7a5e6df204a3bbb2215c60ba117facca0ec7461ebf3fe5fd1354b736",
       "hashAlgorithm": "visible-text-v1",
       "textCharacters": 2525,
-      "observedAt": "2026-11-14T06:34:34.543148+00:00"
+      "observedAt": "2026-11-14T15:09:24.441342+00:00"
     }
   },
   "tasks": [],
   "retries": {},
-  "lease": {
-    "runId": "43608624408",
-    "expiresAt": "2026-11-14T15:29:22.804156+00:00"
-  },
-  "lastRunAt": "2026-11-14T06:34:34.543148+00:00"
+  "lease": null,
+  "lastRunAt": "2026-11-14T15:09:24.441342+00:00"
 }
