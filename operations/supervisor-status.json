@@ -1,17 +1,17 @@
 {
   "site": "junkremoval.ltd",
   "role": "supervisor",
-  "observedAt": "2026-11-14T09:37:26.492422+00:00",
+  "observedAt": "2026-11-14T16:46:54.592987+00:00",
   "event": "schedule",
-  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43581424485",
-  "observerSourceCommit": "b48a7c7ab212c0b0c161db8ab8e090de39039f11",
+  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43617460183",
+  "observerSourceCommit": "6e747c756ad0f02c8484a778a10ed54ae97773b8",
   "actorId": "junkremoval-supervisor",
   "executionProvider": "github",
   "loadedRevision": "junkremoval-supervisor-v1",
   "loadedHash": "2f33d59fd5c7eea9ac7c96d99441408c4ffc70f27baf919843a74956a55a0c62",
   "pageQualityVersion": 1,
-  "checkedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43566998115",
-  "checkedVisualRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43547596385",
+  "checkedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43608624408",
+  "checkedVisualRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43591414783",
   "actualSourceApiDeploymentPublicationChecks": true,
   "status": "held",
   "checks": [
@@ -20,10 +20,10 @@
       "passed": true,
       "detail": {
         "passed": true,
-        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43566998115",
+        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43608624408",
         "providerStatus": "completed",
         "conclusion": "success",
-        "head": "b4c0ec011a77dcdaa6f7f50ed3760b1cd1e5cb7d",
+        "head": "4f6f2a62bca5fd060a371d3fd6527d36c654b847",
         "event": "schedule",
         "workflow": ".github/workflows/source-monitor.yml"
       }
@@ -33,10 +33,10 @@
       "passed": true,
       "detail": {
         "passed": true,
-        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43547596385",
+        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43591414783",
         "providerStatus": "completed",
         "conclusion": "success",
-        "head": "c94274cbe255f77a08af819fa05edf829c53ff51",
+        "head": "9c4d6690c352431e72a75fe8124539072c414a89",
         "event": "schedule",
         "workflow": ".github/workflows/visual-supervisor.yml"
       }
@@ -67,7 +67,7 @@
       "passed": true,
       "detail": {
         "rolePolicy": "worker.json",
-        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43566998115"
+        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43608624408"
       }
     },
     {
@@ -75,14 +75,14 @@
       "passed": true,
       "detail": {
         "rolePolicy": "visual-checker.json",
-        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43547596385"
+        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43591414783"
       }
     },
     {
       "id": "worker-native",
       "passed": true,
       "detail": {
-        "run": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43566998115",
+        "run": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43608624408",
         "fresh": true,
         "event": "schedule"
       }
@@ -99,7 +99,7 @@
       "id": "visual",
       "passed": false,
       "detail": {
-        "run": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43547596385",
+        "run": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43591414783",
         "status": "held",
         "renderReviewVerified": false
       }
@@ -116,7 +116,7 @@
     {
       "id": "canonical-homepage",
       "passed": false,
-      "detail": "<urlopen error [Errno 104] Connection reset by peer>"
+      "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
     },
     {
       "id": "api-sot",
@@ -131,19 +131,19 @@
       "id": "deployed-public-source",
       "passed": true,
       "detail": {
-        "deploymentSourceCommit": "881cee9d153efef9e2015f8b0fc129dfb5e37ba7",
+        "deploymentSourceCommit": "6e747c756ad0f02c8484a778a10ed54ae97773b8",
         "comparedInputCount": 61
       }
     },
     {
       "id": "deployment-source",
-      "passed": false,
+      "passed": true,
       "detail": {
-        "actualDeploymentSourceCommit": "881cee9d153efef9e2015f8b0fc129dfb5e37ba7",
-        "checkoutCommit": "b48a7c7ab212c0b0c161db8ab8e090de39039f11",
+        "actualDeploymentSourceCommit": "6e747c756ad0f02c8484a778a10ed54ae97773b8",
+        "checkoutCommit": "6e747c756ad0f02c8484a778a10ed54ae97773b8",
         "actualGitAncestry": true,
-        "deployedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43528563368",
-        "expectedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43566998115"
+        "deployedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43608624408",
+        "expectedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/43608624408"
       }
     },
     {
