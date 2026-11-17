@@ -1,13 +1,13 @@
 {
   "site": "junkremoval.ltd",
   "scope": "official-source-monitoring-only",
-  "status": "monitoring-complete",
-  "observedAt": "2026-11-17T13:32:54.604197+00:00",
+  "status": "held",
+  "observedAt": "2026-11-17T22:27:21.500226+00:00",
   "event": "schedule",
   "unattended": true,
-  "runId": "44093777139",
-  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44093777139",
-  "sourceCommit": "5d00d4bead2f4a0b93702efb80454cbe78522357",
+  "runId": "44190197773",
+  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44190197773",
+  "sourceCommit": "2a9707a2f335898dc3164455e2f3946c4ff39435",
   "loadedSotRevision": "2026-11-12.1",
   "loadedSotSha256": "d24baffe3f15c09b4a1e7af8fb861100c12e333dee867c8ea5384be708772bdc",
   "queueRef": "operations/source-state.json",
@@ -41,13 +41,9 @@
     {
       "url": "https://www.gov.scot/publications/duty-care-code-practice-managing-controlled-waste/pages/8/",
       "title": "Scotland controlled waste transfer notes",
-      "status": "passed",
-      "attempts": 1,
-      "httpStatus": 200,
-      "sha256": "f454ef9e7e8527b68d6306aac13545687508bb73953f7e7fcb23a371c10b41c4",
-      "hashAlgorithm": "visible-text-v1",
-      "textCharacters": 2701,
-      "retrievalMode": null
+      "status": "failed",
+      "attempts": 3,
+      "error": "l.ltd/operations/fetch-source.py\", line 42, in fetch\n    if response.status!=200:raise ValueError('Source did not return HTTP200')\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Source did not return HTTP200"
     },
     {
       "url": "https://www.epa.nsw.gov.au/Your-environment/Waste/transporting-waste",
@@ -63,18 +59,14 @@
     {
       "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250404/dq250404b-eng.htm",
       "title": "Statistics Canada waste diversion data, dated release",
-      "status": "passed",
-      "attempts": 1,
-      "httpStatus": 200,
-      "sha256": "969287ce7a5e6df204a3bbb2215c60ba117facca0ec7461ebf3fe5fd1354b736",
-      "hashAlgorithm": "visible-text-v1",
-      "textCharacters": 2525,
-      "retrievalMode": null
+      "status": "failed",
+      "attempts": 3,
+      "error": "ib/request.py\", line 464, in _call_chain\n    result = func(*args)\n  File \"/usr/lib/python3.14/urllib/request.py\", line 611, in http_error_default\n    raise HTTPError(req.full_url, code, msg, hdrs, fp)\nurllib.error.HTTPError: HTTP Error 403: Forbidden"
     }
   ],
   "reviewTasks": 0,
-  "retainedRetries": 0,
-  "nextEligibleAt": null,
+  "retainedRetries": 2,
+  "nextEligibleAt": "2026-11-17T22:57:21.500226+00:00",
   "loadedRoleSotRevision": "junkremoval-worker-v1",
   "loadedRoleSotSha256": "55e620bc8efd51155206dcb2b82e32aa2f0ba1d7d44d08a860a99dfe4f3a0fd6",
   "automaticArticlePublication": false,
