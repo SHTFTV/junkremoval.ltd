@@ -1,13 +1,13 @@
 {
   "site": "junkremoval.ltd",
   "scope": "official-source-monitoring-only",
-  "status": "monitoring-complete",
-  "observedAt": "2026-11-20T03:26:19.679425+00:00",
+  "status": "held",
+  "observedAt": "2026-11-20T13:00:29.702220+00:00",
   "event": "schedule",
   "unattended": true,
-  "runId": "44667686949",
-  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44667686949",
-  "sourceCommit": "77abe3d9bfcfba605a06d2496e24fdd29eb88d8a",
+  "runId": "44740499247",
+  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44740499247",
+  "sourceCommit": "1a3c0bf6b88b7a297219452429f4eeb205d59c3f",
   "loadedSotRevision": "2026-11-12.1",
   "loadedSotSha256": "d24baffe3f15c09b4a1e7af8fb861100c12e333dee867c8ea5384be708772bdc",
   "queueRef": "operations/source-state.json",
@@ -19,13 +19,9 @@
     {
       "url": "https://www2.gov.bc.ca/gov/content/environment/waste-management/hazardous-waste/transporting-hazardous-waste/manifests",
       "title": "British Columbia hazardous waste manifests",
-      "status": "passed",
-      "attempts": 1,
-      "httpStatus": 200,
-      "sha256": "119783a7b67aada2166def3bf7d069cc2ab43a6541ea067fc4d630d6c5503d5a",
-      "hashAlgorithm": "visible-text-v1",
-      "textCharacters": 23983,
-      "retrievalMode": null
+      "status": "failed",
+      "attempts": 3,
+      "error": "/usr/lib/python3.14/http/client.py\", line 305, in _read_status\n    raise RemoteDisconnected(\"Remote end closed connection without\"\n                             \" response\")\nhttp.client.RemoteDisconnected: Remote end closed connection without response"
     },
     {
       "url": "https://www.gov.uk/government/publications/waste-duty-of-care-code-of-practice/waste-duty-of-care-code-of-practice",
@@ -73,8 +69,8 @@
     }
   ],
   "reviewTasks": 1,
-  "retainedRetries": 0,
-  "nextEligibleAt": null,
+  "retainedRetries": 1,
+  "nextEligibleAt": "2026-11-20T13:30:29.702220+00:00",
   "loadedRoleSotRevision": "junkremoval-worker-v1",
   "loadedRoleSotSha256": "55e620bc8efd51155206dcb2b82e32aa2f0ba1d7d44d08a860a99dfe4f3a0fd6",
   "automaticArticlePublication": false,
