@@ -1,13 +1,13 @@
 {
   "site": "junkremoval.ltd",
   "scope": "official-source-monitoring-only",
-  "status": "held",
-  "observedAt": "2026-11-17T22:27:21.500226+00:00",
+  "status": "monitoring-complete",
+  "observedAt": "2026-11-20T03:26:19.679425+00:00",
   "event": "schedule",
   "unattended": true,
-  "runId": "44190197773",
-  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44190197773",
-  "sourceCommit": "2a9707a2f335898dc3164455e2f3946c4ff39435",
+  "runId": "44667686949",
+  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44667686949",
+  "sourceCommit": "77abe3d9bfcfba605a06d2496e24fdd29eb88d8a",
   "loadedSotRevision": "2026-11-12.1",
   "loadedSotSha256": "d24baffe3f15c09b4a1e7af8fb861100c12e333dee867c8ea5384be708772bdc",
   "queueRef": "operations/source-state.json",
@@ -41,9 +41,13 @@
     {
       "url": "https://www.gov.scot/publications/duty-care-code-practice-managing-controlled-waste/pages/8/",
       "title": "Scotland controlled waste transfer notes",
-      "status": "failed",
-      "attempts": 3,
-      "error": "l.ltd/operations/fetch-source.py\", line 42, in fetch\n    if response.status!=200:raise ValueError('Source did not return HTTP200')\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Source did not return HTTP200"
+      "status": "passed",
+      "attempts": 1,
+      "httpStatus": 200,
+      "sha256": "f454ef9e7e8527b68d6306aac13545687508bb73953f7e7fcb23a371c10b41c4",
+      "hashAlgorithm": "visible-text-v1",
+      "textCharacters": 2701,
+      "retrievalMode": null
     },
     {
       "url": "https://www.epa.nsw.gov.au/Your-environment/Waste/transporting-waste",
@@ -59,14 +63,18 @@
     {
       "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250404/dq250404b-eng.htm",
       "title": "Statistics Canada waste diversion data, dated release",
-      "status": "failed",
-      "attempts": 3,
-      "error": "ib/request.py\", line 464, in _call_chain\n    result = func(*args)\n  File \"/usr/lib/python3.14/urllib/request.py\", line 611, in http_error_default\n    raise HTTPError(req.full_url, code, msg, hdrs, fp)\nurllib.error.HTTPError: HTTP Error 403: Forbidden"
+      "status": "passed",
+      "attempts": 1,
+      "httpStatus": 200,
+      "sha256": "8ba313b68549176ade61ab59b155471f702b4bc75ddd19156add613934163550",
+      "hashAlgorithm": "visible-text-v1",
+      "textCharacters": 2478,
+      "retrievalMode": null
     }
   ],
-  "reviewTasks": 0,
-  "retainedRetries": 2,
-  "nextEligibleAt": "2026-11-17T22:57:21.500226+00:00",
+  "reviewTasks": 1,
+  "retainedRetries": 0,
+  "nextEligibleAt": null,
   "loadedRoleSotRevision": "junkremoval-worker-v1",
   "loadedRoleSotSha256": "55e620bc8efd51155206dcb2b82e32aa2f0ba1d7d44d08a860a99dfe4f3a0fd6",
   "automaticArticlePublication": false,

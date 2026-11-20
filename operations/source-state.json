@@ -5,55 +5,45 @@
       "sha256": "119783a7b67aada2166def3bf7d069cc2ab43a6541ea067fc4d630d6c5503d5a",
       "hashAlgorithm": "visible-text-v1",
       "textCharacters": 23983,
-      "observedAt": "2026-11-17T22:27:21.500226+00:00"
+      "observedAt": "2026-11-20T03:26:19.679425+00:00"
     },
     "https://www.gov.uk/government/publications/waste-duty-of-care-code-of-practice/waste-duty-of-care-code-of-practice": {
       "sha256": "a62972a5e7ecec320b2aa5aca725a8f9dadd017bb687ba75eff14789920697a4",
       "hashAlgorithm": "visible-text-v1",
       "textCharacters": 35125,
-      "observedAt": "2026-11-17T22:27:21.500226+00:00"
+      "observedAt": "2026-11-20T03:26:19.679425+00:00"
     },
     "https://www.gov.scot/publications/duty-care-code-practice-managing-controlled-waste/pages/8/": {
       "sha256": "f454ef9e7e8527b68d6306aac13545687508bb73953f7e7fcb23a371c10b41c4",
       "hashAlgorithm": "visible-text-v1",
       "textCharacters": 2701,
-      "observedAt": "2026-11-17T13:32:54.604197+00:00"
+      "observedAt": "2026-11-20T03:26:19.679425+00:00"
     },
     "https://www.epa.nsw.gov.au/Your-environment/Waste/transporting-waste": {
       "sha256": "cc15c6284bb25b42833fa285c0e8dfabb79d82c13e4f4756b694ec7bfd940744",
       "hashAlgorithm": "visible-text-v1",
       "textCharacters": 5166,
-      "observedAt": "2026-11-17T22:27:21.500226+00:00"
+      "observedAt": "2026-11-20T03:26:19.679425+00:00"
     },
     "https://www150.statcan.gc.ca/n1/daily-quotidien/250404/dq250404b-eng.htm": {
-      "sha256": "969287ce7a5e6df204a3bbb2215c60ba117facca0ec7461ebf3fe5fd1354b736",
+      "sha256": "8ba313b68549176ade61ab59b155471f702b4bc75ddd19156add613934163550",
       "hashAlgorithm": "visible-text-v1",
-      "textCharacters": 2525,
-      "observedAt": "2026-11-17T13:32:54.604197+00:00"
+      "textCharacters": 2478,
+      "observedAt": "2026-11-20T03:26:19.679425+00:00"
     }
   },
-  "tasks": [],
-  "retries": {
-    "https://www.gov.scot/publications/duty-care-code-practice-managing-controlled-waste/pages/8/": {
-      "consecutiveFailures": 1,
-      "lastAttemptAt": "2026-11-17T22:27:21.500226+00:00",
-      "nextEligibleAt": "2026-11-17T22:57:21.500226+00:00",
-      "error": "l.ltd/operations/fetch-source.py\", line 42, in fetch\n    if response.status!=200:raise ValueError('Source did not return HTTP200')\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Source did not return HTTP200",
-      "status": "retry-pending",
-      "transportVersion": 4
-    },
-    "https://www150.statcan.gc.ca/n1/daily-quotidien/250404/dq250404b-eng.htm": {
-      "consecutiveFailures": 1,
-      "lastAttemptAt": "2026-11-17T22:27:21.500226+00:00",
-      "nextEligibleAt": "2026-11-18T10:27:21.500226+00:00",
-      "error": "ib/request.py\", line 464, in _call_chain\n    result = func(*args)\n  File \"/usr/lib/python3.14/urllib/request.py\", line 611, in http_error_default\n    raise HTTPError(req.full_url, code, msg, hdrs, fp)\nurllib.error.HTTPError: HTTP Error 403: Forbidden",
-      "status": "blocked-provider",
-      "transportVersion": 4
+  "tasks": [
+    {
+      "id": "3832981e6aa27380f025a11417f6ef5c248597606f22788dc65680383c31ab8d",
+      "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250404/dq250404b-eng.htm",
+      "detectedAt": "2026-11-20T03:26:19.679425+00:00",
+      "status": "needs-editorial-review",
+      "sourceSha256": "8ba313b68549176ade61ab59b155471f702b4bc75ddd19156add613934163550",
+      "hashAlgorithm": "visible-text-v1",
+      "reason": "Primary visible authority text changed. Inspect the actual substantive change before any article update."
     }
-  },
-  "lease": {
-    "runId": "44667686949",
-    "expiresAt": "2026-11-20T03:46:17.821927+00:00"
-  },
-  "lastRunAt": "2026-11-17T22:27:21.500226+00:00"
+  ],
+  "retries": {},
+  "lease": null,
+  "lastRunAt": "2026-11-20T03:26:19.679425+00:00"
 }
