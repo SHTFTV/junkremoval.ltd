@@ -1,17 +1,17 @@
 {
   "site": "junkremoval.ltd",
   "role": "supervisor",
-  "observedAt": "2026-11-19T22:30:11.857960+00:00",
+  "observedAt": "2026-11-20T03:47:02.942156+00:00",
   "event": "schedule",
-  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44629190865",
-  "observerSourceCommit": "b20eff413cf64fe9014e37968da8b3b978b720ed",
+  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44670023829",
+  "observerSourceCommit": "833753fd64ab174ad7ba6e3eaa61c56b071e1806",
   "actorId": "junkremoval-supervisor",
   "executionProvider": "github",
   "loadedRevision": "junkremoval-supervisor-v1",
   "loadedHash": "2f33d59fd5c7eea9ac7c96d99441408c4ffc70f27baf919843a74956a55a0c62",
   "pageQualityVersion": 1,
-  "checkedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44190197773",
-  "checkedVisualRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44201104257",
+  "checkedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44667686949",
+  "checkedVisualRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44669572881",
   "actualSourceApiDeploymentPublicationChecks": true,
   "status": "held",
   "checks": [
@@ -20,10 +20,10 @@
       "passed": true,
       "detail": {
         "passed": true,
-        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44190197773",
+        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44667686949",
         "providerStatus": "completed",
         "conclusion": "success",
-        "head": "2a9707a2f335898dc3164455e2f3946c4ff39435",
+        "head": "77abe3d9bfcfba605a06d2496e24fdd29eb88d8a",
         "event": "schedule",
         "workflow": ".github/workflows/source-monitor.yml"
       }
@@ -33,10 +33,10 @@
       "passed": true,
       "detail": {
         "passed": true,
-        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44201104257",
+        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44669572881",
         "providerStatus": "completed",
         "conclusion": "success",
-        "head": "3a48229ca2cafa63765c89be74e1bd5751b007d0",
+        "head": "9e4da52d5e282e2d2b4e9211b42c53ef14aa5931",
         "event": "schedule",
         "workflow": ".github/workflows/visual-supervisor.yml"
       }
@@ -67,7 +67,7 @@
       "passed": true,
       "detail": {
         "rolePolicy": "worker.json",
-        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44190197773"
+        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44667686949"
       }
     },
     {
@@ -75,46 +75,31 @@
       "passed": true,
       "detail": {
         "rolePolicy": "visual-checker.json",
-        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44201104257"
+        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44669572881"
       }
     },
     {
       "id": "worker-native",
-      "passed": false,
+      "passed": true,
       "detail": {
-        "run": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44190197773",
-        "fresh": false,
+        "run": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44667686949",
+        "fresh": true,
         "event": "schedule"
       }
     },
     {
       "id": "sources",
-      "passed": false,
+      "passed": true,
       "detail": {
-        "failedSources": [
-          {
-            "url": "https://www.gov.scot/publications/duty-care-code-practice-managing-controlled-waste/pages/8/",
-            "title": "Scotland controlled waste transfer notes",
-            "status": "failed",
-            "attempts": 3,
-            "error": "l.ltd/operations/fetch-source.py\", line 42, in fetch\n    if response.status!=200:raise ValueError('Source did not return HTTP200')\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Source did not return HTTP200"
-          },
-          {
-            "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250404/dq250404b-eng.htm",
-            "title": "Statistics Canada waste diversion data, dated release",
-            "status": "failed",
-            "attempts": 3,
-            "error": "ib/request.py\", line 464, in _call_chain\n    result = func(*args)\n  File \"/usr/lib/python3.14/urllib/request.py\", line 611, in http_error_default\n    raise HTTPError(req.full_url, code, msg, hdrs, fp)\nurllib.error.HTTPError: HTTP Error 403: Forbidden"
-          }
-        ],
-        "healthySources": 3
+        "failedSources": [],
+        "healthySources": 5
       }
     },
     {
       "id": "visual",
       "passed": false,
       "detail": {
-        "run": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44201104257",
+        "run": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44669572881",
         "status": "held",
         "renderReviewVerified": false
       }
@@ -146,7 +131,7 @@
       "id": "deployed-public-source",
       "passed": true,
       "detail": {
-        "deploymentSourceCommit": "b20eff413cf64fe9014e37968da8b3b978b720ed",
+        "deploymentSourceCommit": "833753fd64ab174ad7ba6e3eaa61c56b071e1806",
         "comparedInputCount": 61
       }
     },
@@ -154,11 +139,11 @@
       "id": "deployment-source",
       "passed": true,
       "detail": {
-        "actualDeploymentSourceCommit": "b20eff413cf64fe9014e37968da8b3b978b720ed",
-        "checkoutCommit": "b20eff413cf64fe9014e37968da8b3b978b720ed",
+        "actualDeploymentSourceCommit": "833753fd64ab174ad7ba6e3eaa61c56b071e1806",
+        "checkoutCommit": "833753fd64ab174ad7ba6e3eaa61c56b071e1806",
         "actualGitAncestry": true,
-        "deployedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44190197773",
-        "expectedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44190197773"
+        "deployedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44667686949",
+        "expectedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44667686949"
       }
     },
     {
@@ -252,8 +237,8 @@
       "passed": true,
       "detail": {
         "queue": "operations/source-state.json",
-        "pending": 0,
-        "retries": 2
+        "pending": 1,
+        "retries": 0
       }
     }
   ],
