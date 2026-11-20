@@ -1,16 +1,16 @@
 {
   "site": "junkremoval.ltd",
   "role": "supervisor",
-  "observedAt": "2026-11-20T13:42:41.475488+00:00",
+  "observedAt": "2026-11-20T22:02:20.099243+00:00",
   "event": "schedule",
-  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44746684633",
-  "observerSourceCommit": "933d7bd255490074625a60bd18adedb0cfd6da5d",
+  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44825503735",
+  "observerSourceCommit": "55a80b076ee108b3f30bc3a32484459d965d2d65",
   "actorId": "junkremoval-supervisor",
   "executionProvider": "github",
   "loadedRevision": "junkremoval-supervisor-v1",
   "loadedHash": "2f33d59fd5c7eea9ac7c96d99441408c4ffc70f27baf919843a74956a55a0c62",
   "pageQualityVersion": 1,
-  "checkedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44740499247",
+  "checkedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44823927790",
   "checkedVisualRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44745440391",
   "actualSourceApiDeploymentPublicationChecks": true,
   "status": "held",
@@ -20,10 +20,10 @@
       "passed": true,
       "detail": {
         "passed": true,
-        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44740499247",
+        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44823927790",
         "providerStatus": "completed",
         "conclusion": "success",
-        "head": "1a3c0bf6b88b7a297219452429f4eeb205d59c3f",
+        "head": "e4ca31cd19f2266c3e3346cf092efce77b0bdbde",
         "event": "schedule",
         "workflow": ".github/workflows/source-monitor.yml"
       }
@@ -67,7 +67,7 @@
       "passed": true,
       "detail": {
         "rolePolicy": "worker.json",
-        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44740499247"
+        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44823927790"
       }
     },
     {
@@ -82,25 +82,17 @@
       "id": "worker-native",
       "passed": true,
       "detail": {
-        "run": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44740499247",
+        "run": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44823927790",
         "fresh": true,
         "event": "schedule"
       }
     },
     {
       "id": "sources",
-      "passed": false,
+      "passed": true,
       "detail": {
-        "failedSources": [
-          {
-            "url": "https://www2.gov.bc.ca/gov/content/environment/waste-management/hazardous-waste/transporting-hazardous-waste/manifests",
-            "title": "British Columbia hazardous waste manifests",
-            "status": "failed",
-            "attempts": 3,
-            "error": "/usr/lib/python3.14/http/client.py\", line 305, in _read_status\n    raise RemoteDisconnected(\"Remote end closed connection without\"\n                             \" response\")\nhttp.client.RemoteDisconnected: Remote end closed connection without response"
-          }
-        ],
-        "healthySources": 4
+        "failedSources": [],
+        "healthySources": 5
       }
     },
     {
@@ -139,7 +131,7 @@
       "id": "deployed-public-source",
       "passed": true,
       "detail": {
-        "deploymentSourceCommit": "933d7bd255490074625a60bd18adedb0cfd6da5d",
+        "deploymentSourceCommit": "55a80b076ee108b3f30bc3a32484459d965d2d65",
         "comparedInputCount": 61
       }
     },
@@ -147,11 +139,11 @@
       "id": "deployment-source",
       "passed": true,
       "detail": {
-        "actualDeploymentSourceCommit": "933d7bd255490074625a60bd18adedb0cfd6da5d",
-        "checkoutCommit": "933d7bd255490074625a60bd18adedb0cfd6da5d",
+        "actualDeploymentSourceCommit": "55a80b076ee108b3f30bc3a32484459d965d2d65",
+        "checkoutCommit": "55a80b076ee108b3f30bc3a32484459d965d2d65",
         "actualGitAncestry": true,
-        "deployedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44740499247",
-        "expectedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44740499247"
+        "deployedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44823927790",
+        "expectedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44823927790"
       }
     },
     {
@@ -246,7 +238,7 @@
       "detail": {
         "queue": "operations/source-state.json",
         "pending": 1,
-        "retries": 1
+        "retries": 0
       }
     }
   ],
