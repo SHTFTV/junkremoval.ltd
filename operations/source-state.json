@@ -53,6 +53,9 @@
       "transportVersion": 4
     }
   },
-  "lease": null,
+  "lease": {
+    "runId": "44905382802",
+    "expiresAt": "2026-11-21T13:04:23.298759+00:00"
+  },
   "lastRunAt": "2026-11-21T03:15:38.250511+00:00"
 }
