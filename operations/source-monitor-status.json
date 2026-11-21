@@ -2,12 +2,12 @@
   "site": "junkremoval.ltd",
   "scope": "official-source-monitoring-only",
   "status": "held",
-  "observedAt": "2026-11-21T03:15:38.250511+00:00",
+  "observedAt": "2026-11-21T12:44:24.863571+00:00",
   "event": "schedule",
   "unattended": true,
-  "runId": "44860175837",
-  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44860175837",
-  "sourceCommit": "85c3369d750d91d514562c8873da9857f8b176f0",
+  "runId": "44905382802",
+  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/44905382802",
+  "sourceCommit": "77a4450646822fff43b00210c7cfa4b03e685c22",
   "loadedSotRevision": "2026-11-12.1",
   "loadedSotSha256": "d24baffe3f15c09b4a1e7af8fb861100c12e333dee867c8ea5384be708772bdc",
   "queueRef": "operations/source-state.json",
@@ -19,13 +19,9 @@
     {
       "url": "https://www2.gov.bc.ca/gov/content/environment/waste-management/hazardous-waste/transporting-hazardous-waste/manifests",
       "title": "British Columbia hazardous waste manifests",
-      "status": "passed",
-      "attempts": 1,
-      "httpStatus": 200,
-      "sha256": "119783a7b67aada2166def3bf7d069cc2ab43a6541ea067fc4d630d6c5503d5a",
-      "hashAlgorithm": "visible-text-v1",
-      "textCharacters": 23983,
-      "retrievalMode": null
+      "status": "failed",
+      "attempts": 3,
+      "error": "/usr/lib/python3.14/http/client.py\", line 305, in _read_status\n    raise RemoteDisconnected(\"Remote end closed connection without\"\n                             \" response\")\nhttp.client.RemoteDisconnected: Remote end closed connection without response"
     },
     {
       "url": "https://www.gov.uk/government/publications/waste-duty-of-care-code-of-practice/waste-duty-of-care-code-of-practice",
@@ -41,9 +37,13 @@
     {
       "url": "https://www.gov.scot/publications/duty-care-code-practice-managing-controlled-waste/pages/8/",
       "title": "Scotland controlled waste transfer notes",
-      "status": "failed",
-      "attempts": 3,
-      "error": "l.ltd/operations/fetch-source.py\", line 42, in fetch\n    if response.status!=200:raise ValueError('Source did not return HTTP200')\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Source did not return HTTP200"
+      "status": "passed",
+      "attempts": 1,
+      "httpStatus": 200,
+      "sha256": "f454ef9e7e8527b68d6306aac13545687508bb73953f7e7fcb23a371c10b41c4",
+      "hashAlgorithm": "visible-text-v1",
+      "textCharacters": 2701,
+      "retrievalMode": null
     },
     {
       "url": "https://www.epa.nsw.gov.au/Your-environment/Waste/transporting-waste",
@@ -70,7 +70,7 @@
   ],
   "reviewTasks": 1,
   "retainedRetries": 1,
-  "nextEligibleAt": "2026-11-21T03:45:38.250511+00:00",
+  "nextEligibleAt": "2026-11-21T13:14:24.863571+00:00",
   "loadedRoleSotRevision": "junkremoval-worker-v1",
   "loadedRoleSotSha256": "55e620bc8efd51155206dcb2b82e32aa2f0ba1d7d44d08a860a99dfe4f3a0fd6",
   "automaticArticlePublication": false,
