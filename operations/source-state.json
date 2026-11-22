@@ -11,7 +11,7 @@
       "sha256": "a62972a5e7ecec320b2aa5aca725a8f9dadd017bb687ba75eff14789920697a4",
       "hashAlgorithm": "visible-text-v1",
       "textCharacters": 35125,
-      "observedAt": "2026-11-22T02:18:03.217565+00:00"
+      "observedAt": "2026-11-22T12:39:01.992232+00:00"
     },
     "https://www.gov.scot/publications/duty-care-code-practice-managing-controlled-waste/pages/8/": {
       "sha256": "f454ef9e7e8527b68d6306aac13545687508bb73953f7e7fcb23a371c10b41c4",
@@ -23,13 +23,13 @@
       "sha256": "cc15c6284bb25b42833fa285c0e8dfabb79d82c13e4f4756b694ec7bfd940744",
       "hashAlgorithm": "visible-text-v1",
       "textCharacters": 5166,
-      "observedAt": "2026-11-22T02:18:03.217565+00:00"
+      "observedAt": "2026-11-22T12:39:01.992232+00:00"
     },
     "https://www150.statcan.gc.ca/n1/daily-quotidien/250404/dq250404b-eng.htm": {
       "sha256": "8ba313b68549176ade61ab59b155471f702b4bc75ddd19156add613934163550",
       "hashAlgorithm": "visible-text-v1",
       "textCharacters": 2478,
-      "observedAt": "2026-11-22T02:18:03.217565+00:00"
+      "observedAt": "2026-11-22T12:39:01.992232+00:00"
     }
   },
   "tasks": [
@@ -43,10 +43,24 @@
       "reason": "Primary visible authority text changed. Inspect the actual substantive change before any article update."
     }
   ],
-  "retries": {},
-  "lease": {
-    "runId": "45023368403",
-    "expiresAt": "2026-11-22T12:59:00.397066+00:00"
+  "retries": {
+    "https://www2.gov.bc.ca/gov/content/environment/waste-management/hazardous-waste/transporting-hazardous-waste/manifests": {
+      "consecutiveFailures": 1,
+      "lastAttemptAt": "2026-11-22T12:39:01.992232+00:00",
+      "nextEligibleAt": "2026-11-22T13:09:01.992232+00:00",
+      "error": "/usr/lib/python3.14/http/client.py\", line 305, in _read_status\n    raise RemoteDisconnected(\"Remote end closed connection without\"\n                             \" response\")\nhttp.client.RemoteDisconnected: Remote end closed connection without response",
+      "status": "retry-pending",
+      "transportVersion": 4
+    },
+    "https://www.gov.scot/publications/duty-care-code-practice-managing-controlled-waste/pages/8/": {
+      "consecutiveFailures": 1,
+      "lastAttemptAt": "2026-11-22T12:39:01.992232+00:00",
+      "nextEligibleAt": "2026-11-22T13:09:01.992232+00:00",
+      "error": "l.ltd/operations/fetch-source.py\", line 42, in fetch\n    if response.status!=200:raise ValueError('Source did not return HTTP200')\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Source did not return HTTP200",
+      "status": "retry-pending",
+      "transportVersion": 4
+    }
   },
-  "lastRunAt": "2026-11-22T02:18:03.217565+00:00"
+  "lease": null,
+  "lastRunAt": "2026-11-22T12:39:01.992232+00:00"
 }
