@@ -1,17 +1,17 @@
 {
   "site": "junkremoval.ltd",
   "role": "supervisor",
-  "observedAt": "2026-11-22T16:46:41.560379+00:00",
+  "observedAt": "2026-11-22T22:14:16.347501+00:00",
   "event": "schedule",
-  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45045706316",
-  "observerSourceCommit": "a37e6ba1dfee2b46775e7af7498db7e7dd16ea53",
+  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45076570500",
+  "observerSourceCommit": "5e3849a4a4823ec1ad4820698bf9d13c16201e8a",
   "actorId": "junkremoval-supervisor",
   "executionProvider": "github",
   "loadedRevision": "junkremoval-supervisor-v1",
   "loadedHash": "2f33d59fd5c7eea9ac7c96d99441408c4ffc70f27baf919843a74956a55a0c62",
   "pageQualityVersion": 1,
-  "checkedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45023368403",
-  "checkedVisualRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45024334079",
+  "checkedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45068193396",
+  "checkedVisualRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45068599697",
   "actualSourceApiDeploymentPublicationChecks": true,
   "status": "held",
   "checks": [
@@ -20,10 +20,10 @@
       "passed": true,
       "detail": {
         "passed": true,
-        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45023368403",
+        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45068193396",
         "providerStatus": "completed",
         "conclusion": "success",
-        "head": "0515203184b57331d266af4d7f1b3ba46f721e91",
+        "head": "c1670e0ba5c3b7ed0f16d32be4c9c7f5225e5b2d",
         "event": "schedule",
         "workflow": ".github/workflows/source-monitor.yml"
       }
@@ -33,10 +33,10 @@
       "passed": true,
       "detail": {
         "passed": true,
-        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45024334079",
+        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45068599697",
         "providerStatus": "completed",
         "conclusion": "success",
-        "head": "d9c55844cb5a9dd9ce2b91134d57e8f2946b82f9",
+        "head": "65babac44026bff8457bcb31553f5035354e3922",
         "event": "schedule",
         "workflow": ".github/workflows/visual-supervisor.yml"
       }
@@ -67,7 +67,7 @@
       "passed": true,
       "detail": {
         "rolePolicy": "worker.json",
-        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45023368403"
+        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45068193396"
       }
     },
     {
@@ -75,46 +75,31 @@
       "passed": true,
       "detail": {
         "rolePolicy": "visual-checker.json",
-        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45024334079"
+        "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45068599697"
       }
     },
     {
       "id": "worker-native",
       "passed": true,
       "detail": {
-        "run": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45023368403",
+        "run": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45068193396",
         "fresh": true,
         "event": "schedule"
       }
     },
     {
       "id": "sources",
-      "passed": false,
+      "passed": true,
       "detail": {
-        "failedSources": [
-          {
-            "url": "https://www2.gov.bc.ca/gov/content/environment/waste-management/hazardous-waste/transporting-hazardous-waste/manifests",
-            "title": "British Columbia hazardous waste manifests",
-            "status": "failed",
-            "attempts": 3,
-            "error": "/usr/lib/python3.14/http/client.py\", line 305, in _read_status\n    raise RemoteDisconnected(\"Remote end closed connection without\"\n                             \" response\")\nhttp.client.RemoteDisconnected: Remote end closed connection without response"
-          },
-          {
-            "url": "https://www.gov.scot/publications/duty-care-code-practice-managing-controlled-waste/pages/8/",
-            "title": "Scotland controlled waste transfer notes",
-            "status": "failed",
-            "attempts": 3,
-            "error": "l.ltd/operations/fetch-source.py\", line 42, in fetch\n    if response.status!=200:raise ValueError('Source did not return HTTP200')\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Source did not return HTTP200"
-          }
-        ],
-        "healthySources": 3
+        "failedSources": [],
+        "healthySources": 5
       }
     },
     {
       "id": "visual",
       "passed": false,
       "detail": {
-        "run": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45024334079",
+        "run": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45068599697",
         "status": "held",
         "renderReviewVerified": false
       }
@@ -131,7 +116,7 @@
     {
       "id": "canonical-homepage",
       "passed": false,
-      "detail": "<urlopen error [Errno 104] Connection reset by peer>"
+      "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
     },
     {
       "id": "api-sot",
@@ -146,7 +131,7 @@
       "id": "deployed-public-source",
       "passed": true,
       "detail": {
-        "deploymentSourceCommit": "a37e6ba1dfee2b46775e7af7498db7e7dd16ea53",
+        "deploymentSourceCommit": "5e3849a4a4823ec1ad4820698bf9d13c16201e8a",
         "comparedInputCount": 61
       }
     },
@@ -154,11 +139,11 @@
       "id": "deployment-source",
       "passed": true,
       "detail": {
-        "actualDeploymentSourceCommit": "a37e6ba1dfee2b46775e7af7498db7e7dd16ea53",
-        "checkoutCommit": "a37e6ba1dfee2b46775e7af7498db7e7dd16ea53",
+        "actualDeploymentSourceCommit": "5e3849a4a4823ec1ad4820698bf9d13c16201e8a",
+        "checkoutCommit": "5e3849a4a4823ec1ad4820698bf9d13c16201e8a",
         "actualGitAncestry": true,
-        "deployedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45023368403",
-        "expectedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45023368403"
+        "deployedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45068193396",
+        "expectedWorkerRunRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45068193396"
       }
     },
     {
@@ -253,7 +238,7 @@
       "detail": {
         "queue": "operations/source-state.json",
         "pending": 1,
-        "retries": 2
+        "retries": 0
       }
     }
   ],
