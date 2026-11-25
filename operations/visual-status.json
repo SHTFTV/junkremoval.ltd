@@ -1,10 +1,10 @@
 {
   "site": "junkremoval.ltd",
   "role": "visual-checker",
-  "observedAt": "2026-11-24T15:15:36.872Z",
+  "observedAt": "2026-11-25T01:04:18.689Z",
   "event": "schedule",
-  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45423215751",
-  "observerSourceCommit": "208ed2faae4226d421b520c088dd799e2f8ae55d",
+  "runRef": "https://github.com/SHTFTV/junkremoval.ltd/actions/runs/45522848754",
+  "observerSourceCommit": "c6d699de6d193e6f0fc2f4a4a23bf6d7d32db8f3",
   "executionProvider": "github",
   "actorId": "junkremoval-visual-checker",
   "loadedRevision": "junkremoval-visual-checker-v1",
@@ -292,7 +292,7 @@
           16
         ]
       },
-      "imageDigest": "898cfe1b859e0cb60148363a91437f3549ac1eb200a151fbb492c5ed359cc5fe",
+      "imageDigest": "3281d286538d9ba681a5d9ae86bfd43e9e648879d5501b7af957f0d1cf1fc126",
       "renderPath": "operations/visual/desktop-_guides_.jpg",
       "renderRef": "https://github.com/SHTFTV/junkremoval.ltd/blob/main/operations/visual/desktop-_guides_.jpg"
     },
